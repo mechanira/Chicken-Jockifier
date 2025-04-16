@@ -1,0 +1,1 @@
+tellraw @a "Chicken Jockifier is now loaded!"

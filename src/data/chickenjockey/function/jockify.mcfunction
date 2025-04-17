@@ -1,0 +1,1 @@
+ride @s mount @e[type=chicken,limit=1,sort=nearest,distance=..1,nbt=!{Passengers:[{}]}]

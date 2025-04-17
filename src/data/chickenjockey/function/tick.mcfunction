@@ -1,1 +1,1 @@
-execute at @a run execute as @e[type=zombie,nbt={IsBaby:1b},limit=1,sort=random] unless entity @s[nbt={vehicle:{}}] at @s run ride @s mount @e[type=chicken,limit=1,sort=nearest,distance=..1,nbt=!{Passengers:[{}]}]
+execute as @e[type=#minecraft:zombies,nbt={IsBaby:1b}] unless entity @s[nbt={vehicle:{}}] at @s run function chickenjockey:jockify
